@@ -1,0 +1,28 @@
+@import "tailwindcss";
+/* @import "tailwindcss/preflight"; */
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'TWK-500';
+    src: url('/public/Fonts/TWKLausanne-500.eb0ea77.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'TWK-400';
+    src: url('/public/Fonts/TWKLausanne-400.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'TWK-300';
+    src: url('/public/Fonts/TWKLausanne-300.woff2') format('woff2');
+  }
+}
+
+@theme {
+  --width-screen-sm: var(--breakpoint-sm);
+  --width-screen-md: var(--breakpoint-md);
+  --width-screen-lg: var(--breakpoint-lg);
+  --width-screen-xl: var(--breakpoint-xl);
+  --width-screen-2xl: var(--breakpoint-2xl);
+}
