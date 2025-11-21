@@ -27,7 +27,7 @@ const Slider_text = () => {
         </div>
         <div className="my-15 flex flex-col items-center justify-center">
           <p className="text-sm sm:text-2xl font-[TWK-300] text-center">
-            Discover how our passion for nature comes to life across leading{" "}
+            Discover how our passion for Technology comes to life across leading{" "}
           </p>
           <p className="text-sm sm:text-2xl font-[TWK-300] text-center">
             design and tech platforms — where digital meets the wild.

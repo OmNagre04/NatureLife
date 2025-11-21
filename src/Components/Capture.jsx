@@ -59,7 +59,7 @@ const Capture = () => {
           muted
           autoPlay
           className="w-full h-full object-cover"
-          src="/Videos/reel.mp4"
+          src="/Videos/ad.webm"
         />
       </div>
       <div className="w-full h-full absolute overlay py-15 sm:py-20 text-white flex flex-col justify-between">
@@ -77,7 +77,7 @@ const Capture = () => {
               fill="currentColor"
             ></path>
           </svg>
-          <h3 className="font-[TWK-400]">Moment in motion</h3>
+          <h3 className="font-[TWK-400]">Crazyness in Veins </h3>
         </div>
         <h1 className="w-full justify-center flex items-center sm:gap-80 gap-20">
           <div ref={play} className="text-6xl sm:text-9xl font-[TWK-300]">
@@ -88,7 +88,7 @@ const Capture = () => {
           </div>
         </h1>
         <p className="text-center sm:text-lg px-10 sm:px-20">
-          Step into the rhythm of nature through this short reel — a glimpse
+          Step into the rhythm of TECHNOLOGY through this short reel — a glimpse
           into moments that breathe, move, and inspire.
         </p>
       </div>

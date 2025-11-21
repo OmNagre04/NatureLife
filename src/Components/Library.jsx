@@ -7,28 +7,28 @@ import { motion } from "motion/react";
 const Library = () => {
   const [elems, useElems] = useState([
     {
-      heading: "Sunlit Stillness",
-      description: "Golden rays warming a quiet forest trail.",
-      image: "/Images/p-1.jpg",
-      video: "/Videos/v-1.mp4",
+      heading: "Wireless Earbuds",
+      description: "Follow the new voice of freedom.",
+      image: "/Images/i1.webp",
+      video: "/Videos/v1.webm",
     },
     {
-      heading: "Whispers of Rain",
-      description: "Raindrops dancing on leaves in soft silence.",
-      image: "/Images/p-2.jpg",
-      video: "/Videos/v-2.mp4",
+      heading: "Bluetooth Headphones",
+      description: "Dance to your own rhythm in your own world.",
+      image: "/Images/i2.webp",
+      video: "/Videos/v2.webm",
     },
     {
-      heading: "Flutter Pause",
-      description: "A butterfly pausing mid-flight on a blooming petal.",
-      image: "/Images/p-3.jpg",
-      video: "/Videos/v-3.mp4",
+      heading: "Laptops",
+      description: "The machine which is always available for your work.",
+      image: "/Images/i3.webp",
+      video: "/Videos/v3.webm",
     },
     {
-      heading: "Dawn’s Embrace",
-      description: " Mountains glowing under the first light of dawn.",
-      image: "/Images/p-4.jpg",
-      video: "/Videos/v-4.mp4",
+      heading: "Smart Phones",
+      description: " Pocket-sized powerhouses that keep you connected.",
+      image: "/Images/i4.webp",
+      video: "/Videos/v4.webm",
     },
   ]);
 
@@ -49,7 +49,7 @@ const Library = () => {
               fill="currentColor"
             ></path>
           </svg>
-          <h3 className="font-[TWK-400]">Featured Moments</h3>
+          <h3 className="font-[TWK-400]">Featured Product</h3>
         </div>
         <h1 className="text-6xl overflow-hidden sm:text-[10rem] my-10 font-[TWK-500]">
           <motion.span
@@ -62,12 +62,11 @@ const Library = () => {
             }}
             className="inline-block origin-left"
           >
-            Moments
+            Product Library
           </motion.span>
         </h1>
         <p className="font-[TWK-300] text-lg sm:text-2xl">
-          Moments that move you — a glimpse into the beauty, stillness, and
-          wonder that nature offers every day.
+          Finest product for your everyday use which you don't wanna miss out, The best in segment & the value for money.
         </p>
 
         <div className="elements sm:flex sm:flex-wrap justify-between mt-10">

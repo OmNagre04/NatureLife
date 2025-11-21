@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="bg-black w-full h-full">
       <div className="flex pt-40 pb-20 px-10 text-white sm:px-20 font-[TWK-500]">
         <div className="title w-[50vw] text-4xl sm:text-[6rem] md] lg:text-[9rem]">
-          Our Nature
+          Our Tech-Zone
         </div>
         <div className="video">
           <video
@@ -26,7 +26,7 @@ const Footer = () => {
           className="font-light border-b-[.3px] inline-block mt-10 border-zinc-100 pb-1"
           href="#"
         >
-          Our Nature
+          Our Tech-Zone
         </a>
         <div className="w-full mt-10 h-[2px] bg-zinc-200"></div>
         <div className="flex justify-center sm:justify-start pb-10 items-center gap-25 mt-10">
